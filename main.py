@@ -31,7 +31,7 @@ if __name__ == "__main__":
     print("이미지 입력 경로 : %s" % (inImgPath))
     print("텍스트 출력 경로 : %s" % (outTxtPath))
     print("initialization End")
-    time.sleep(2)
+    time.sleep(3)
 
     #OCR 추출 작업 메인
     for root, dirs, files in os.walk(inImgPath):
