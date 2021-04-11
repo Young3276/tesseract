@@ -42,6 +42,6 @@ if __name__ == "__main__":
     #OCR 추출 텍스트 파일 크기 확인
     for root, dirs, files in os.walk(outTxtPath):
         for fname in files:
-            print("fileName : %s, %d" %(fname, float(os.path.getsize(os.path.join(root, fname)))))
+            print("fileName : %s, %d" %(fname, float(os.path.getsize(os.path.join(root, fname)))))  #바이트 단위
             #fullPath = os.path.join(root, fname)
             #txtName = os.path.join(outTxtPath, fname.split('.')[0])
